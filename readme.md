@@ -23,4 +23,8 @@ A project is loaded using the following code:
 
 Since there are hundreds of projects in use where this plug-in is installed, there's a little delay whenever the plug-in is re-installed or when Delphi starts up and is initializing the Welcome Page plug-ins. The projects are all stored on a fast local SSD so loading time is minimal but it would be a good idea to make this multi-threaded for smoother operation.
 
+### Blog
+
+To learn more, read my blog on [Creating a Delphi Welcome Page Plug-in](https://corneliusconcepts.tech/creating-delphi-welcome-page-plug). 
+
 ![Screenshot](./ProjTree.png)
