@@ -5,7 +5,7 @@
         <ProjectVersion>19.5</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
-        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Config Condition="'$(Config)'==''">Release</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <TargetedPlatforms>1</TargetedPlatforms>
         <AppType>Package</AppType>
@@ -102,16 +102,14 @@
         <DCCReference Include="vcl.dcp"/>
         <DCCReference Include="designide.dcp"/>
         <DCCReference Include="RaizeComponentsVcl.dcp"/>
-        <DCCReference Include="WP.ProjTreePlugin.Constants.pas"/>
-        <DCCReference Include="WP.ProjTreePlugin.Creator.pas"/>
-        <DCCReference Include="WP.ProjTreePlugin.View.pas">
+        <DCCReference Include="..\WP.ProjTreePlugin.Constants.pas"/>
+        <DCCReference Include="..\WP.ProjTreePlugin.Creator.pas"/>
+        <DCCReference Include="..\WP.ProjTreePlugin.View.pas">
             <Form>MainFrame</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="WP.ProjTreePlugin.Resources.pas">
+        <DCCReference Include="..\WP.ProjTreePlugin.Resources.pas">
             <Form>dmProjTreePluginResources</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <BuildConfiguration Include="Base">

@@ -35,10 +35,10 @@ requires
   RaizeComponentsVcl;
 
 contains
-  WP.ProjTreePlugin.Constants in 'WP.ProjTreePlugin.Constants.pas',
-  WP.ProjTreePlugin.Creator in 'WP.ProjTreePlugin.Creator.pas',
-  WP.ProjTreePlugin.View in 'WP.ProjTreePlugin.View.pas' {MainFrame: TFrame},
-  WP.ProjTreePlugin.Resources in 'WP.ProjTreePlugin.Resources.pas' {dmProjTreePluginResources: TDataModule};
+  WP.ProjTreePlugin.Constants in '..\WP.ProjTreePlugin.Constants.pas',
+  WP.ProjTreePlugin.Creator in '..\WP.ProjTreePlugin.Creator.pas',
+  WP.ProjTreePlugin.View in '..\WP.ProjTreePlugin.View.pas' {MainFrame: TFrame},
+  WP.ProjTreePlugin.Resources in '..\WP.ProjTreePlugin.Resources.pas' {dmProjTreePluginResources: TDataModule};
 
 end.
 
